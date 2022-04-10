@@ -45,6 +45,7 @@ paste("nilai varian: ", varian)
 <h3>2.</h3>
 2.a<br>
 Peluang terdapat 4 pasien yang sembuh
+
 ```c
 S = 20
 p = 0.2
@@ -57,9 +58,11 @@ dbinom(n, S, p)
 
 2.b<br>
 Gambarkan grafik histogram
+
 ```c
 barplot(dbinom(1:20,S, p), col = "blue")
 ```
+
 ![Histogram 2b](img/Capture2.PNG)
 
 2.c<br>
