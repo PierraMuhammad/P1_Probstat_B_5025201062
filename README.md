@@ -31,7 +31,7 @@ hist(rgeom(n = 10000, p), main="Histogram of Geometric", col="red")
 ```
 ![Histogram 1d](img/Capture1.PNG)
 
-1.e
+1.e<br>
 Nilai Rataan (μ) dan Varian (σ²)
 ```c
 rataan = 1/p
@@ -39,3 +39,87 @@ paste("nilai rataan: ", rataan)
 varian = (1-p)/p^2
 paste("nilai varian: ", varian)
 ```
+
+<h3>2.</h3>
+2.a<br>
+Peluang terdapat 4 pasien yang sembuh
+```c
+S = 20
+p = 0.2
+q = 1-p
+
+#2a
+n = 4
+dbinom(n, S, p)
+```
+
+2.b<br>
+Gambarkan grafik histogram
+```c
+barplot(dbinom(1:20,S, p), col = "blue")
+```
+![Histogram 2b](img/Capture2.PNG)
+
+2.c<br>
+Nilai Rataan (μ) dan Varian (σ²)
+```c
+rataan = n * p
+paste("rataan: ", rataan)
+
+varian = n * p *q
+paste("varian: ", varian)
+```
+<h3>3.</h3>
+rata-rata historis = 4,5<br><br>
+3.a   Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok<br>
+```c
+mean_historis = 4.5
+
+#3a
+n = 6
+dpois(n, mean_historis)
+```
+
+3.b   histogram kelahiran 6 bayi akan lahir dalam satu tahun<br>
+```c
+peluang = dpois(n, mean_historis)
+data = data.frame(y=c(peluang), x=c(1:365))
+barplot(data$y, names.arg=data$x, ylab="peluang", xlab="hari ke-", ylim=0:1)
+```
+![Histogram 3b](img/Capture3.PNG)
+
+3.c   bandingkan hasil poin a dan b<br>
+nilai dari soal 3a dan 3b cenderung sama disetiap hari<br>
+
+3.d<br>
+Rataan (μ) dan Varian (σ²)<br>
+```c
+lamda = mean_historis
+rataan = varian = lamda
+```
+
+<h3>4.</h3>
+4.a   Fungsi Probabilitas dari Distribusi Chi-Square<br>
+```c
+x = 2
+v = 10
+
+#4a
+dchisq(x, v)
+```
+
+4.b   Histogram dari Distribusi Chi-Square dengan 100 data random<br>
+```c
+hist(rchisq(100, v))
+```
+
+4.c   Rataan (μ) dan Varian (σ²)<br>
+```c
+rataan = v
+paste("rataan: ", rataan)
+varian = 2 * v
+paste("varian: ", varian)
+```
+
+<h3>5.</h3>
+<h3>6.</h3>
