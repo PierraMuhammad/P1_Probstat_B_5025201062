@@ -26,6 +26,7 @@ pada soal a dan b terjadi perbedaan yang tidak terlalu jauh, akan tetapi nilai d
 
 1.d<br>
 Histogram Distribusi Geometri
+
 ```c
 hist(rgeom(n = 10000, p), main="Histogram of Geometric", col="red")
 ```
@@ -33,6 +34,7 @@ hist(rgeom(n = 10000, p), main="Histogram of Geometric", col="red")
 
 1.e<br>
 Nilai Rataan (μ) dan Varian (σ²)
+
 ```c
 rataan = 1/p
 paste("nilai rataan: ", rataan)
