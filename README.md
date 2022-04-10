@@ -77,6 +77,7 @@ mean_historis = 4.5
 n = 6
 dpois(n, mean_historis)
 ```
+<br>
 3.b   histogram kelahiran 6 bayi akan lahir dalam satu tahun<br>
 ```c
 peluang = dpois(n, mean_historis)
