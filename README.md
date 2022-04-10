@@ -143,11 +143,11 @@ n = 10000
 hist(rexp(n))
 ```
 n = 10<br>
-![Histogram n = 10](img/Capture5.PNG)
+![Histogram n = 10](img/Capture5.PNG)<br>
 n = 100<br>
-![Histogram n = 100](img/Capture6.PNG)
+![Histogram n = 100](img/Capture6.PNG)<br>
 n = 1000<br>
-![Histogram n = 1000](img/Capture7.PNG)
+![Histogram n = 1000](img/Capture7.PNG)<br>
 n = 10000<br>
 ![Histogram n = 10000](img/Capture8.PNG)
 <h3>6.</h3>
