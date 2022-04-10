@@ -105,7 +105,7 @@ rataan = varian = lamda
 x = 2
 v = 10
 dchisq(x, v)
-```
+```c
 
 4.b   Histogram dari Distribusi Chi-Square dengan 100 data random<br>
 ```c
