@@ -100,6 +100,7 @@ rataan = varian = lamda
 
 <h3>4.</h3>
 4.a   Fungsi Probabilitas dari Distribusi Chi-Square<br>
+
 ```c
 x = 2
 v = 10
