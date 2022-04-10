@@ -78,6 +78,7 @@ paste("varian: ", varian)
 rata-rata historis = 4,5<br>
 3.a<br>
 Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok<br>
+
 ```c
 mean_historis = 4.5
 n = 6
@@ -85,6 +86,7 @@ dpois(n, mean_historis)
 ```
 
 3.b   histogram kelahiran 6 bayi akan lahir dalam satu tahun<br>
+
 ```c
 peluang = dpois(n, mean_historis)
 data = data.frame(y=c(peluang), x=c(1:365))
