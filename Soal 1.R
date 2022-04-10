@@ -16,3 +16,5 @@ hist(rgeom(n = 10000, p), main="Histogram of Geometric", col="red")
 #1e
 miu = 1/p
 paste("nilai rataan: ", miu)
+varian = (1-p)/p^2
+paste("nilai varian: ", varian)
