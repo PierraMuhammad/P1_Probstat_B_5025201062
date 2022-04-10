@@ -112,6 +112,7 @@ dchisq(x, v)
 ```c
 hist(rchisq(100, v))
 ```
+![Histogram 4b](img/Capture4.PNG)
 
 4.c   Rataan (μ) dan Varian (σ²)<br>
 ```c
@@ -122,4 +123,31 @@ paste("varian: ", varian)
 ```
 
 <h3>5.</h3>
+(λ = 3)
+5.a Fungsi Probabilitas dari Distribusi Exponensial<br>
+```c
+lambda = 3
+
+#5a
+dexp(lambda)
+```
+5.b Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+```c
+n = 10
+hist(rexp(n))
+n = 100
+hist(rexp(n))
+n = 1000
+hist(rexp(n))
+n = 10000
+hist(rexp(n))
+```
+n = 10
+![Histogram n = 10](img/Capture5.PNG)
+n = 100
+![Histogram n = 100](img/Capture6.PNG)
+n = 1000
+![Histogram n = 1000](img/Capture7.PNG)
+n = 10000
+![Histogram n = 10000](img/Capture8.PNG)
 <h3>6.</h3>
