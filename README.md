@@ -129,15 +129,18 @@ paste("varian: ", varian)
 ```
 
 <h3>5.</h3>
-(λ = 3)
+(λ = 3)<br>
 5.a Fungsi Probabilitas dari Distribusi Exponensial<br>
+
 ```c
 lambda = 3
 
 #5a
 dexp(lambda)
 ```
+
 5.b Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
+
 ```c
 n = 10
 hist(rexp(n))
@@ -148,6 +151,7 @@ hist(rexp(n))
 n = 10000
 hist(rexp(n))
 ```
+
 n = 10<br>
 ![Histogram n = 10](img/Capture5.PNG)<br>
 n = 100<br>
