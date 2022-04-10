@@ -29,6 +29,8 @@ Histogram Distribusi Geometri
 ```c
 hist(rgeom(n = 10000, p), main="Histogram of Geometric", col="red")
 ```
+![Histogram 1d](img/Capture1.PNG)
+
 1.e
 Nilai Rataan (μ) dan Varian (σ²)
 ```c
