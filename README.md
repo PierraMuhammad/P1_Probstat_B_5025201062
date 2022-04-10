@@ -71,7 +71,7 @@ paste("varian: ", varian)
 ```
 <h3>3.</h3>
 rata-rata historis = 4,5<br>
-3.a   Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok<br>
+3.a   Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok
 ```c
 mean_historis = 4.5
 n = 6
