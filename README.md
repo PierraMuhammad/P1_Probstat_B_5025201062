@@ -61,7 +61,7 @@ barplot(dbinom(1:20,S, p), col = "blue")
 ![Histogram 2b](img/Capture2.PNG)
 
 2.c<br>
-Nilai Rataan (μ) dan Varian (σ²)
+Nilai Rataan (μ) dan Varian (σ²)<br>
 ```c
 rataan = n * p
 paste("rataan: ", rataan)
@@ -72,7 +72,7 @@ paste("varian: ", varian)
 <h3>3.</h3>
 rata-rata historis = 4,5<br>
 3.a<br>
-Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok
+Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok<br>
 ```c
 mean_historis = 4.5
 n = 6
