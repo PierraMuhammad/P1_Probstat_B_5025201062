@@ -74,13 +74,9 @@ rata-rata historis = 4,5<br>
 3.a   Berapa peluang bahwa 6 bayi akan lahir di rumah sakit ini besok<br>
 ```c
 mean_historis = 4.5
-
-#3a
 n = 6
 dpois(n, mean_historis)
 ```
-
-
 3.b   histogram kelahiran 6 bayi akan lahir dalam satu tahun<br>
 ```c
 peluang = dpois(n, mean_historis)
