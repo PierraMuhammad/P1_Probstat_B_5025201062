@@ -103,8 +103,6 @@ rataan = varian = lamda
 ```c
 x = 2
 v = 10
-
-#4a
 dchisq(x, v)
 ```
 
